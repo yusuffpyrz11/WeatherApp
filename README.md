@@ -1,4 +1,4 @@
-# 🌤 WeatherApp — C# Hava Durumu Uygulaması
+#  WeatherApp — C# Hava Durumu Uygulaması
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet?logo=dotnet)](https://dotnet.microsoft.com/)
 [![C#](https://img.shields.io/badge/C%23-12.0-239120?logo=csharp)](https://docs.microsoft.com/en-us/dotnet/csharp/)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📸 Ekran Görüntüleri
+##  Ekran Görüntüleri
 
 > Aşağıya `screenshots/` klasöründen ekran görüntüsü ekleyin.
 
@@ -18,7 +18,7 @@
 ║         🌤  HAVA DURUMU UYGULAMASI  🌤           ║
 ╚══════════════════════════════════════════════════╝
 
-  🔍 Şehir adı girin: Istanbul
+   Şehir adı girin: Istanbul
 
 ┌─────────────────────────────────────────────────┐
 │  ☁️   ISTANBUL, TR                               │
@@ -42,7 +42,7 @@
 
 ---
 
-## ✨ Özellikler
+##  Özellikler
 
 | Özellik | Açıklama |
 |---|---|
@@ -56,7 +56,7 @@
 
 ---
 
-## 🛠 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 - **Dil**: C# 12
 - **Framework**: .NET 8
@@ -102,7 +102,7 @@ WeatherApp/
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 ### Gereksinimler
 
@@ -124,7 +124,7 @@ cd WeatherApp
 public const string ApiKey = "buraya_api_anahtarinizi_yazin";
 ```
 
-> **💡 Güvenlik İpucu:** Gerçek projede API anahtarını ortam değişkeniyle kullanın:
+> ** Güvenlik İpucu:** Gerçek projede API anahtarını ortam değişkeniyle kullanın:
 > ```bash
 > export OWM_API_KEY="your_key_here"
 > ```
@@ -157,14 +157,14 @@ dotnet publish -c Release -r osx-x64 --self-contained
 
 ---
 
-## 💬 Kullanım
+##  Kullanım
 
 Uygulama çalıştıktan sonra şehir adını yazıp Enter'a basın:
 
 ```
-🔍 Şehir adı girin: Ankara
-🔍 Şehir adı girin: London
-🔍 Şehir adı girin: New York
+ Şehir adı girin: Ankara
+ Şehir adı girin: London
+ Şehir adı girin: New York
 ```
 
 ### Özel Komutlar
@@ -177,7 +177,7 @@ Uygulama çalıştıktan sonra şehir adını yazıp Enter'a basın:
 
 ---
 
-## 🏗 Mimari ve Tasarım Kararları
+##  Mimari ve Tasarım Kararları
 
 Bu proje **SOLID** prensiplerine uygun geliştirilmiştir:
 
@@ -195,7 +195,7 @@ Bu proje **SOLID** prensiplerine uygun geliştirilmiştir:
 
 ---
 
-## 📝 Geliştirme Aşamaları
+##  Geliştirme Aşamaları
 
 ```
 Aşama 1: Temel Yapı
@@ -232,7 +232,7 @@ Aşama 7: Test ve Dokümantasyon
 
 ---
 
-## 📌 Önerilen Git Commit Mesajları
+##  Önerilen Git Commit Mesajları
 
 ```bash
 git commit -m "feat: initial project structure with SOLID architecture"
@@ -250,7 +250,7 @@ git commit -m "fix: handle duplicate city entries in search history"
 
 ---
 
-## 🔮 Gelecek Geliştirmeler
+##  Gelecek Geliştirmeler
 
 - [ ] 5 günlük hava tahmini (Forecast API)
 - [ ] Şehir koordinatına göre arama (Geocoding API)
@@ -261,13 +261,13 @@ git commit -m "fix: handle duplicate city entries in search history"
 
 ---
 
-## 📄 Lisans
+##  Lisans
 
 Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
 
 ---
 
-## 🙏 Teşekkürler
+##  Teşekkürler
 
 - [OpenWeatherMap](https://openweathermap.org/) — Ücretsiz hava durumu API'si için
 - [Microsoft .NET](https://dotnet.microsoft.com/) — Harika geliştirici ekosistemi için
