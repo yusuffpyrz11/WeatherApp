@@ -11,8 +11,6 @@
 
 ##  Ekran Görüntüleri
 
-> Aşağıya `screenshots/` klasöründen ekran görüntüsü ekleyin.
-
 ```
 ╔══════════════════════════════════════════════════╗
 ║         🌤  HAVA DURUMU UYGULAMASI  🌤           ║
