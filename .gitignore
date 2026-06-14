@@ -1,0 +1,60 @@
+## .NET / C# Gitignore
+## Kaynak: https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# Build çıktıları
+bin/
+obj/
+out/
+
+# .NET araçları
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet paketleri
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Test sonuçları
+TestResults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish profilleri
+*.pubxml
+*.pubxml.user
+PublishProfiles/
+
+# ─── Uygulama Özel ───────────────────────────────────────────────────────
+# Arama geçmişi dosyası (kişisel veri, repoya eklenmez)
+data/search_history.json
+
+# API anahtarını içeren yerel override dosyaları
+appsettings.local.json
+secrets.json
+.env
+.env.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
